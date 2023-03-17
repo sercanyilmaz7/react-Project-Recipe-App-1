@@ -12,7 +12,7 @@ const Detail = () => {
     <DetailContainer>
       <HeaderContainer>
         <h1>{state.label}</h1>
-        <img src={dietSvg} />
+        <img src={dietSvg} alt="name" />
       </HeaderContainer>
       <DetailPart wrap="wrap">
         <OtherPart>
